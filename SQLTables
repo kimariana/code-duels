@@ -1,0 +1,27 @@
+CREATE TABLE public.problems (
+  id integer GENERATED ALWAYS AS IDENTITY NOT NULL,
+  title text,
+  difficulty text,
+  likes integer,
+  dislikes integer,
+  json_data jsonb,
+  created_at timestamp with time zone NOT NULL DEFAULT now(),
+  boilerplate text NOT NULL DEFAULT 'Needs boilerplate'::text,
+  test_cases jsonb NOT NULL DEFAULT '{}'::jsonb,
+  hint text NOT NULL DEFAULT 'No hint provided.'::text,
+  CONSTRAINT problems_pkey PRIMARY KEY (id)
+);
+
+CREATE TABLE public.profiles (
+  id uuid NOT NULL,
+  username text,
+  display_name text,
+  avatar_url text,
+  wins integer NOT NULL DEFAULT 0,
+  losses integer NOT NULL DEFAULT 0,
+  elo integer NOT NULL DEFAULT 1000,
+  created_at timestamp with time zone NOT NULL DEFAULT now(),
+  updated_at timestamp with time zone NOT NULL DEFAULT now(),
+  CONSTRAINT profiles_pkey PRIMARY KEY (id),
+  CONSTRAINT profiles_id_fkey FOREIGN KEY (id) REFERENCES auth.users(id)
+);
