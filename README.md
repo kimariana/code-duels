@@ -51,3 +51,12 @@ Practice coding, sharpen your problem-solving skills, and challenge friends.
   - code-duels-web-app (frontend) → code-duels-api (backend) → Redis cache
 - Game states
   - Waiting for member to join → waiting for passing submission → user wins or leaves
+ 
+## Screenshots
+<img width="720" height="388" alt="CodeDuelsHome" src="https://github.com/user-attachments/assets/7903cbc7-7722-44a5-aa02-fce86ae77c35" />
+<img width="720" height="388" alt="CodeDuelsScreenshot" src="https://github.com/user-attachments/assets/2d9bbaba-d5a4-4541-ab64-ef134ea97ece" />
+<img width="720" height="388" alt="CodeDuelsPowerup" src="https://github.com/user-attachments/assets/840efeb3-4b79-4157-b159-061b7ad3df81" />
+<img width="720" height="388" alt="CodeDuelsWon" src="https://github.com/user-attachments/assets/1006c0a2-d5ee-4f05-9201-bbc9446a8277" />
+<img width="720" height="388" alt="CodeDuelsProfile" src="https://github.com/user-attachments/assets/14d9ac8b-4ab9-4bad-92c1-adca7d870663" />
+
+
