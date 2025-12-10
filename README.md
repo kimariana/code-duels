@@ -15,7 +15,9 @@ This repository contains a portion of the work I contributed to the Code Duels p
 
 
 ## Description
-Code Duels is a website designed to help you hone your coding skills while battling against other players, colosseum style! Complete a randomized set of problems to whittle down your opponent's health. End up losing a battle? Use power-ups to even the playing field. The player who successfully completes 3 problems will claim victory!
+Code Duels is a competitive web-based programming arena where players challenge each other in real-time 1v1 coding battles. Solve algorithmic problems in Python as quickly and accurately as possible to defeat your opponent. Complete a randomized set of problems to whittle down your opponent's health. End up losing a battle? Use power-ups to even the playing field. The player who successfully completes 3 problems will claim victory!
+
+Practice coding, sharpen your problem-solving skills, and challenge friends.
 
 ## Features
 - Problem generation with test cases and solutions 
@@ -26,6 +28,12 @@ Code Duels is a website designed to help you hone your coding skills while battl
 - Player profiles with gameplay stats and Github account integration
 - Unique powerups that disrupt or assist player action
 - Unique colosseum theme
+
+## Contributions
+- Problem generation and delivery
+- Player profiles based on GitHub account
+- Changing display names
+- Database for problems, profiles, and game states using Supabase/PostgreSQL
 
 ## Technologies
 - Frontend: Next.js + React + Typescript
@@ -40,6 +48,6 @@ Code Duels is a website designed to help you hone your coding skills while battl
   - Game data is stored in Redis cache
   - UI can emit and listen to game events such as joining and leaving the room, solution passes, and powerups
 - Railway Architecture
-  - Code-duels-web-app (frontend) → code-deuls-api (backend) → Redis cache
+  - code-duels-web-app (frontend) → code-duels-api (backend) → Redis cache
 - Game states
-  - Waiting for member join → waiting for passing submission → user wins or leaves
+  - Waiting for member to join → waiting for passing submission → user wins or leaves
