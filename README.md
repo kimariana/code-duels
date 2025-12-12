@@ -19,6 +19,9 @@ Code Duels is a competitive web-based programming arena where players challenge 
 
 Practice coding, sharpen your problem-solving skills, and challenge friends.
 
+## Purpose
+Expand my skill set by learning new languages, tools, and frameworks and strengthen my technical expertise through web development by working with Python + Flask for the backend and React + Typescript for the frontend.
+
 ## Features
 - Problem generation with test cases and solutions 
 - Round-based gameplay system
